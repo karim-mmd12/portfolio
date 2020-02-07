@@ -1,0 +1,47 @@
+
+header nav ul {
+  margin-top: 35px;
+  margin-left: 0;
+  padding: 0;
+  position: relative;
+  float: right;
+  min-width: 60%;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+header nav li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  position: relative;
+}
+
+
+header nav li a {
+  padding: .25em 10px;
+  font-size: .9em;
+}
+
+
+header nav li:after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  top: .4em;
+  font-weight: bold;
+}
+
+
+header nav li:last-child:after {
+  content: "";
+}
+
+.product .num-votes {
+  font-size: .8em;
+}
+
+
+.product .see-all span {
+  display: inline;
+}
