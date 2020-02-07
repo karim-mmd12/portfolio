@@ -1,0 +1,42 @@
+/* add "home" back into the primary nav */
+header nav ul {
+  min-width: 70%;
+  margin-top: 35px;
+}
+header nav li {
+  width: 25%;
+}
+header nav li.home {
+  display: list-item;
+}
+
+
+
+/* move to two columns */
+.item img.product {
+  margin-top: 40px;
+  max-width: 50%;
+  float: left;
+}
+
+
+.item {
+  text-align: left;
+}
+
+.item .item-info {
+  margin-left: 53%;
+  width: 45%;
+  padding-top: 80px;
+}
+
+
+.item .num-votes {
+  left: 53%;
+  right: auto;
+}
+
+
+.item .vote {
+  margin-top: 20px;
+}

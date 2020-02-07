@@ -1,0 +1,173 @@
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bg-texture-light.jpg) 50% top repeat;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+/* center the header and set width to 90% of the browser */
+header {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+/* setup the logo by pushing the text off screen and adding background image */
+.site-title {
+  float: left;
+  text-indent: -9999px;
+  width: 120px;
+  height: 116px;
+  margin: 0;
+  background: url(../img/bg-logo-120x30.png) left top no-repeat;
+}
+
+
+/* make room for the logo (130px) */
+nav ul {
+  margin-left: 130px;
+  margin-right: 5%;
+  padding-top: 10px;
+}
+
+
+nav li a {
+  display: block;
+  line-height: 1.9em;
+  text-align: center;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+
+nav li.home {
+  display: none;
+}
+
+
+.item {
+  background: #000 url(../img/bg-texture-dark.jpg) 50% top repeat;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* we added a wrapper around the contents of the .item section */
+.item .wrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+.item img.product {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+
+/* adjust the type a bit */
+.item h1, .item p {
+  text-align: left;
+  line-height: 1.5em;
+}
+.item h1 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+
+.item .num-votes {
+  display: block;
+  text-align: center;
+  background-color: #f1592a;
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: .5em;
+  letter-spacing: .2em;
+}
+
+
+.item .num-votes strong {
+  font-size: 2.2em;
+  line-height: 1em;
+  letter-spacing: normal;
+  display: block;
+}
+
+.item .see-all {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: .1em;
+  background: url(../img/bg-arrow-left.png) 8px 50% no-repeat;
+  padding: .5em .5em .4em 35px;
+}
+
+
+.item .see-all span {
+  display: none;
+}
+
+
+.item .see-all:hover {
+  color: #000;
+  background: #f1592a url(../img/bg-arrow-left-dark.png) 8px 50% no-repeat;
+}
+
+.item .see-all:hover span {
+  display: inline;
+}
+
+
+.item .vote {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: .6em 0 .6em 42%;
+  color: #000;
+  font-size: .8em;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #f1592a url(../img/bg-check.png) 10% 50% no-repeat;
+}
+
+
+
+
+
+
+
+
+
